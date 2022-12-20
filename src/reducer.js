@@ -18,3 +18,5 @@ function render() {
   const app = document.querySelector("#app");
   app.textContent = state.count;
 }
+
+dispatch({ type: "@@INIT" });
